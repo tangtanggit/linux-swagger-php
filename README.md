@@ -83,7 +83,8 @@ linux下安装swagger+php
                                   ServerName api.bubucom.com
                               </VirtualHost>
 
-           第二步：git clone xxxx //下载我的demo直接放进sw目录里，此时sw下的目录下应该有三个文件夹 
+           第二步：git clone https://github.com/tangtanggit/linux-swagger-php.git
+                                 //下载我的demo直接放进sw目录里，此时sw下的目录下应该有三个文件夹 
                                  // ./api //api为你自己的api代码目录里面我放了两个demo文件，一个Swagger.php
                                             这是swagger文档的描述基本
                                             例子 demo.class.php这是我自己写的一个swagger注释api。
