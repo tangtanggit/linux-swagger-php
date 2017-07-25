@@ -35,10 +35,11 @@ linux下安装swagger+php
                                                          //此时会在你的swagger-php/json_docs目录下生成一个swagger.json这个
                                                            json是整个文档的核心，没有该json就无法查看！如果修改api文档和注释
                                                            需要重新生成swagger.json 
-                                                         
-                                                         
-                                                         
-           html客户端配置 swagger-ui 下 的配置 
+                                                           
+           
+           
+           html客户端配置 swagger-ui 下 的配置
+          
            第九步：cd ../ //回到sw目录
            
            第十步：cd swagger-ui // 进入swagger-ui目录
