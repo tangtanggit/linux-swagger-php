@@ -4,8 +4,8 @@ linux下安装swagger+php
 
 第一种情况：下载swagger自己搭建服务端，客户端 //双斜杠为注释结束说明，请忽略
 
-           php客户端配置
-           第一步：mkdir sw //在网站目录下新建sw并将xxx.com域名解析，我这里用的apache，修改httpd.conf讲xxx.com解析到sw目录
+           php服务端配置 swagger-php目录下的配置
+           第一步：mkdir sw //在网站目录下新建sw并将xxx.com域名解析，我这里用的apache，修改httpd.conf讲xxx.com解析到sw目录
           
            第二步：cd sw   //进入sw目录
           
@@ -26,9 +26,11 @@ linux下安装swagger+php
                                   // composer update更新完成后，会在你的swagger-php目录下新增一个vendor目录存放的是一写swagger运行所需要的一些类库
            
            第八步：php ./bin/swagger ../api -o json_docs  //在swagger-php中配置生成swagger.json，api目录可以根据你真是的代码目录进行更改
-                                                         //此时会在你的swagger-php/json_docs目录下生成一个swagger.json这个json是整个文档的核心，没有该json就无法查看
-           html客户端配置 如果修改api文档和注释需要重新生成swagger.json          
-           
+                                                         //此时会在你的swagger-php/json_docs目录下生成一个swagger.json这个json是整个文档的核心，没有该json就无法查看！如果修改api文档和注释需要重新生成swagger.json 
+                                                         
+                                                         
+                                                         
+           html客户端配置 swagger-ui 下 的配置 
            第九步：cd ../ //回到sw目录
            
            第十步：cd swagger-ui // 进入swagger-ui目录
